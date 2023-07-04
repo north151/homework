@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contain {
+    width: 800px;
+    height: 900px;
+}
+
+.people {
+    fill: red;
+}
+
+#timeText {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 550px;
+    color: rgb(128, 128, 128);
+    text-align: center;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+#container {
+    background: #dcdcec;
+    width: 500px;
+    height: 20px;
+    border-radius: 3px;
+    position: absolute;
+    left: 350px;
+    top: 55px;
+    z-index: 999;
+}
+
+#control {
+    display: inline-block;
+    width: 15px;
+    height: 28px;
+    background: rgb(128, 128, 128);
+    position: relative;
+    border-radius: 2px;
+    left: 0;
+    top: 0;
+    margin-top: -4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+}
+
+.ggrid {
+    stroke: rgb(106, 119, 136);
+}
+
+#tooltip {
+    position: absolute;
+    width: 20px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    z-index: 999;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    color: #F56C6C;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#svg1 {
+    width: 800px;
+    height: 900px;
+    position: absolute;
+    left: 200px;
+    top: 95px;
+    border: 3px solid rgb(101, 179, 193);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.svg2 {
+    position: absolute;
+    right: 150px;
+    top: 550px;
+    border: 3px solid rgb(101, 179, 193);
+    border-radius: 10px;
+}
+
+#svgContainer {
+    position: absolute;
+    right: 150px;
+    top: 10px;
+}
+
+button {
+    width: 45px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+#textContainer {
+    position: absolute;
+    width: 85px;
+    left: 1530px;
+    top: 600px;
+    border: 2px solid rgb(101, 179, 193);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+p {
+    line-height: 16px;
+}
+
+p span {
+    font-size: 12px;
+}

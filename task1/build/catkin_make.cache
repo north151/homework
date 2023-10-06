@@ -1,0 +1,2 @@
+image_demo:info_demo:odo_demo:pcl_demo
+-DCATKIN_DEVEL_PREFIX=/home/agilex/task1/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/task1/install -G Unix Makefiles

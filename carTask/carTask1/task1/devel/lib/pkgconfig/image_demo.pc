@@ -1,0 +1,8 @@
+prefix=/home/agilex/task1/devel
+
+Name: image_demo
+Description: Description of image_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport roscpp rospy sensor_msgs

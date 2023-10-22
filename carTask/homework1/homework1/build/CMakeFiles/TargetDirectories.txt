@@ -1,0 +1,3 @@
+/home/north151/车载软件开发基础/homework1/homework1/build/CMakeFiles/main.dir
+/home/north151/车载软件开发基础/homework1/homework1/build/CMakeFiles/edit_cache.dir
+/home/north151/车载软件开发基础/homework1/homework1/build/CMakeFiles/rebuild_cache.dir

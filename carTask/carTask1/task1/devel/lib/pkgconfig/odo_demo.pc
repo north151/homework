@@ -1,0 +1,8 @@
+prefix=/home/agilex/task1/devel
+
+Name: odo_demo
+Description: Description of odo_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp

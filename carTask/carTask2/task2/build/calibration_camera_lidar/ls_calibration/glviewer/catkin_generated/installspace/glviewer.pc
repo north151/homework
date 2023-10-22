@@ -1,0 +1,8 @@
+prefix=/home/agilex/task2/install
+
+Name: glviewer
+Description: Description of glviewer
+Version: 1.9.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lglviewer
+Requires: roscpp

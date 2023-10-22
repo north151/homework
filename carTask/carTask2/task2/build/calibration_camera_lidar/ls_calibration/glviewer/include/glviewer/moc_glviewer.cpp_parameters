@@ -1,0 +1,16 @@
+-I/home/agilex/task2/src/calibration_camera_lidar/ls_calibration/glviewer/include
+-I/opt/ros/melodic/include
+-I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/home/agilex/task2/src/calibration_camera_lidar/ls_calibration/glviewer
+-I/home/agilex/task2/build/calibration_camera_lidar/ls_calibration/glviewer
+-I/usr/include/eigen3
+-I/home/agilex/task2/src/calibration_camera_lidar/ls_calibration/glviewer
+-I/home/agilex/task2/build/calibration_camera_lidar/ls_calibration/glviewer
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="glviewer"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/agilex/task2/build/calibration_camera_lidar/ls_calibration/glviewer/include/glviewer/moc_glviewer.cpp
+/home/agilex/task2/src/calibration_camera_lidar/ls_calibration/glviewer/include/glviewer/glviewer.h

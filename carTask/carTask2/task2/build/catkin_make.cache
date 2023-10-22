@@ -1,0 +1,2 @@
+calibration_camera_lidar/ls_calibration/autoware_build_flags:calibration_camera_lidar/ls_calibration/autoware_msgs:calibration_camera_lidar/ls_calibration/calibration_camera_lidar:calibration_camera_lidar/ls_calibration/glviewer:calibration_camera_lidar/ls_calibration/ls_calibration:calibration_camera_lidar/ls_calibration/rosinterface:colored_pointcloud
+-DCATKIN_DEVEL_PREFIX=/home/agilex/task2/devel -DCMAKE_INSTALL_PREFIX=/home/agilex/task2/install -G Unix Makefiles

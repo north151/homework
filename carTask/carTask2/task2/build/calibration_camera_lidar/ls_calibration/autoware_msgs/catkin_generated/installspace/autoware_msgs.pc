@@ -1,0 +1,8 @@
+prefix=/home/agilex/task2/install
+
+Name: autoware_msgs
+Description: Description of autoware_msgs
+Version: 1.9.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs sensor_msgs jsk_recognition_msgs

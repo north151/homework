@@ -1,0 +1,8 @@
+prefix=/home/agilex/task2/devel
+
+Name: glviewer
+Description: Description of glviewer
+Version: 1.9.1
+Cflags: -I/home/agilex/task2/src/calibration_camera_lidar/ls_calibration/glviewer/include
+Libs: -L${prefix}/lib -lglviewer
+Requires: roscpp

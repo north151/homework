@@ -1,0 +1,8 @@
+prefix=/home/agilex/task2/devel
+
+Name: rosinterface
+Description: Description of rosinterface
+Version: 1.9.1
+Cflags: -I/home/agilex/task2/src/calibration_camera_lidar/ls_calibration/rosinterface/include
+Libs: -L${prefix}/lib -lrosinterface
+Requires: roscpp tf
